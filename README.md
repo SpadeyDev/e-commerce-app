@@ -1,10 +1,17 @@
 # Shopify.app
 
-Innovative style e-commerce site. You can follow the steps below for installation.
+Innovative style e-commerce site. You can follow the steps below for installation.<br/>
+
 > npm install
-Install npm module and then
-> npm run dev 
-website is now ready
+<br/>
+Install npm module and then<br/>
+
+> npm run dev
+<br/>
+
+website is now ready<br/>
+
+<br/>
 
 don't forget star!
 
