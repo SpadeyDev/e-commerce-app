@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Montserrat;
+}
+
+
+
+.top-title h3{
+    color: gray;
+    font-size: 15px;
+    margin-top: 50px;
+    margin-left: 180px;
+    width: 100%;
+    font-weight: 300;
+}
+
+.top-title p{
+  width: 450px;
+  margin-top: 25px;
+  color: gray;
+}
+
+
+.main-product {
+    margin-top: 125px;
+    display: flex;
+    justify-content: center;
+}
+
+.section-product {
+    margin-left: 100px;
+    margin-top: 60px;
+}
+
+.section-product h1{
+    margin-top: 25px;
+}
+
+.product-image {
+    width: 350px;
+}
+
+.rate {
+    margin-top: 25px;
+    display: flex;
+    align-items: center;
+}
+
+.rate2 {
+    margin-left: 10px;
+    font-size: 15px;
+}
+
+.stok {
+    color: #00A807;
+    margin-left: 20px;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.buy {
+    display: flex;
+    align-items: center;
+}
+
+.buy-button {
+    margin-top: 25px;
+    width: 150px;
+    background-color: black;
+    height: 60px;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.icons {
+    margin-top: 25px;
+    margin-left: 20px;
+    cursor: pointer;
+    font-size: 40px;
+  }
+
+  .icon:hover {
+    color: red;
+  }
+
+  .delivery {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+  }
+
+  .delivery h2{
+    font-size: 20px;
+    font-weight: 600;
+  }
+  .delivery2 {
+    margin-left: 20px;
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+  }
+
+  .underline {
+   text-decoration: underline;
+  }
+  .delivery-icon {
+    font-size: 60px;
+  }

@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Montserrat;
+}
+
+.basket-main {
+    display: flex;
+    align-items: center;
+    margin-top: 80px;
+    margin-left: 200px;
+    width: 100%;
+}
+
+.basket-section {
+    margin-left: 50px;
+}
+
+.basket-main h1{
+    font-size: 18px;
+}
+
+.stok {
+    color: #00A807;
+    margin-left: 100px;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.updown {
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.basket-main button {
+    width: 50px;
+    height: 40px;
+    border: 1px solid gray;
+    background-color: white;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.basket-main .count {
+    width: 50px;
+    height: 40px;
+    border: 1px solid gray;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.updown h1 {
+    margin-left: 25px;
+}
+
+.sumPrice {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    position: fixed;
+    top: 40%;
+    transform: translateY(-50%); 
+    background-color: white; 
+    padding: 20px; 
+    z-index: 999; 
+    margin-left: 1250px;
+}
+
+.sumPrice h1 {
+    text-decoration: underline;
+    font-size: 25px;
+}
+
+.subtotal {
+    margin-top: 20px;
+}
+
+.subtotal h3 {
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 10px;
+}
+
+.sumPrice button {
+    width: 250px;
+    background-color: #1e1e1e;
+    height: 50px;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    border: none;
+    margin-top: 25px;
+    cursor: pointer;
+    border-radius: 25px;
+}
+
+.sumPrice button:hover {
+    background-color: #272727;
+}
