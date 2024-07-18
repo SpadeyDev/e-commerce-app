@@ -10,10 +10,8 @@ Install npm module and then<br/>
 <br/>
 
 website is now ready<br/>
+don't forget star!<br/>
 
-<br/>
-
-don't forget star!
 
 Screenshot;
 <br/>
